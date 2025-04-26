@@ -1,5 +1,3 @@
-
-```markdown
 # Medical Diagnosis Prediction System ⚕️
 
 This is a web application built with Streamlit that predicts the likelihood of several medical conditions based on user-provided diagnostic measurements. It uses pre-trained machine learning models.
@@ -76,7 +74,6 @@ Once the setup is complete, run the following command in your terminal (make sur
 
 ```bash
 streamlit run app.py
-```
 
 This will start the Streamlit application, and it should automatically open in your default web browser.
 
