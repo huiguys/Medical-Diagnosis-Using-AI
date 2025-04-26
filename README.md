@@ -74,24 +74,3 @@ Once the setup is complete, run the following command in your terminal (make sur
 
 ```bash
 streamlit run app.py
-
-This will start the Streamlit application, and it should automatically open in your default web browser.
-
-Project Structure
-Medical-Diagnosis-Using-AI/
-├── Models/
-│   ├── diabetes_model.sav
-│   ├── heart_disease_model.sav
-│   ├── parkinsons_model.sav
-│   ├── lungs_disease_model.sav  # Model for Lung Cancer
-│   └── Thyroid_model.sav      # Model for Hypo-Thyroid
-├── .gitignore             # Specifies intentionally untracked files that Git should ignore
-├── app.py                 # The main Streamlit application script
-├── requirements.txt       # List of Python dependencies for the project
-└── README.md              # This file - project documentation
-Models
-The pre-trained machine learning models used for prediction are stored in the Models/ directory. These models were saved using Python's pickle module and likely trained using libraries compatible with Scikit-learn. Each .sav file corresponds to one of the diseases the application can predict.
-
-(Optional: Add a sentence here if you know where the training data came from, e.g., "Models were trained on publicly available datasets like PIMA Indians Diabetes Database, Cleveland Heart Disease dataset, etc.")
-Disclaimer
-This application provides predictions based on machine learning models trained on historical data. It is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition. 1  Never disregard professional medical advice or delay in seeking it because of something you 2  have read or seen in this application.
